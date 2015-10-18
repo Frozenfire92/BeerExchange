@@ -4,8 +4,10 @@
 }
 
 body {
-    width: 60%;
+    width: 40%;
     margin: 100px auto;
+    background-color: #ecf0f1;
+    color: #2c3e50;
 }
 
 h1, h3, p, label, table {

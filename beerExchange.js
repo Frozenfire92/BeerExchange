@@ -51,7 +51,8 @@ function beerExchange(){
 
 // Check that everyone hasn't given/recieved from the same person, and has gotten and given a beer
 function exchangeInvalid(){
-    return _.every(people, function(p){ return p.gaveTo != p.recieved && p.gaveTo != null && p.recieved != null; });
+    var valid = _.every(people, function(p){ return (p.gaveTo != p.recieved) && (p.gaveTo != null) && (p.recieved != null); });
+    return !valid;
 }
 
 function fillTable(){
