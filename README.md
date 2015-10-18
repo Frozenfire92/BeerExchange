@@ -10,4 +10,4 @@ I have thought about a mathematical proof to count how many solutions there are 
 I have also asked professors at my University and it doesn't immediately seem there is a nice or intuitive solution.
 If you come up with one please let me know!
 
-I coded my solution in javascript with underscore.js
+I coded my solution in javascript with underscore.js. View the solution on [github pages here](http://frozenfire92.github.io/BeerExchange)
