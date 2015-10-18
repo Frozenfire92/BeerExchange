@@ -1,0 +1,27 @@
+*, *:before, *:after {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 60%;
+    margin: 100px auto;
+}
+
+h1, h3, p, label, table {
+    text-align: center;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+input, button {
+    width: 20%;
+    margin: 5px auto;
+    display: block;
+}
+
+table {
+    margin: 0 auto;
+}
